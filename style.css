@@ -1,15 +1,27 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+}
+
+
 body{
     background-color:#0E202E;
+}
+
+div{
+    display: inline-block;
+    height: 70px;
+     
 }
 
 
 
 
-
-
 #Menu ul{
+    line-height:70px;
+    display: inline-block;
+    width: auto;
+    line-height: 55px;
     text-align: center;
-    
     
 }
 
@@ -18,7 +30,8 @@ body{
     font-size: 25px;
     margin-left: 15px;
     margin-right: 15px;
-    
+    width: 55pxpx;
+    height: 1px;
     
 }
 
@@ -26,6 +39,5 @@ body{
     color:white;
     text-decoration: none;
     text-align: center;
-    font-family: anton;
 
 }
