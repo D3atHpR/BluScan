@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    background-color:#0E202E;
 }
 
 body{
@@ -13,7 +14,7 @@ body{
 
 nav{
     background-color:#0E202E;
-    height: 60px;
+    height: 120px;
     width: 100%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
@@ -42,3 +43,28 @@ nav ul li{
 nav ul li a {
     color: white;
 }
+
+
+.container1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    line-height: 35px;
+    margin: 0 15px;
+    
+
+}
+
+.container1 ul li{
+    display: inline-block;
+}
+.container1 ul li a{
+    color: white;
+    padding: 0 15px;
+    font-size: 25px;    
+}
+ .container1 container11{
+    margin: 0 100px;
+ }
