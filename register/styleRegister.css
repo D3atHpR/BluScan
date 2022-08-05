@@ -2,19 +2,17 @@ body{
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-.login{
-height: 100vh;
-background: linear-gradient(120deg, #020202, #000448);
-display: flex;
-justify-content: center;
-align-items: center;
 
 }
+.register{
+    height: 100vh;
+    background: linear-gradient(120deg, #020202, #000448);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
 
-.login-container{
+.register-container{
     min-height: 400px;
     width: 300px;
     background-color: white;
@@ -24,29 +22,30 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-.login-title{
+ .register-title{
     margin-bottom: 32px;
     color: #000448;
-}
-.login-form{
+ }
+
+ .register-form{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.login-input{
+ }
+
+ .register-input{
     height: 48px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 8px;
     border: unset;
     outline: none;
-}
+ }
 
-.login-input-border{
+.register-input-border{
     height: 1px;
     width: 100%;
     margin-bottom: 16px;
@@ -54,7 +53,7 @@ align-items: center;
     transition: .3s ease-in-out;
 }
 
-.login-input-border::after{
+.register-input-border::after{
     content: '';
     display: block;
     height: 1px;
@@ -64,13 +63,13 @@ align-items: center;
     transition: .3s ease-in-out;
 }
 
-.login-submit{
+.register-submit{
     height: 48px;
     width: 100%;
     outline: none;
     background: linear-gradient(120deg, #020202, #000448);
-    color:white;
     background-size: 200%;
+    color: white;
     margin-bottom: 32px;
     font-size: 16px;
     font-weight: bold;
@@ -80,8 +79,9 @@ align-items: center;
     transition: .5s ease-in-out;
 }
 
-.login-reset{
-    font-size: 15px;
-    color: #020202;
-    text-decoration: none;
-}
+
+
+
+
+
+
